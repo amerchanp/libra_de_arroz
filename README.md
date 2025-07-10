@@ -50,7 +50,7 @@ print("Resultado:", mover_ceros_al_final(numeros))
 ```
 
 ## EJERCICIO 4
-Este último ejercicio era para entender cómo funciona el algoritmo de bubble sort. Lo que hace este método es comparar elementos vecinos y los intercambia si están en el orden incorrecto. Eso se repite varias veces hasta que toda la lista queda ordenada. Usé dos ciclos for: uno externo para repetir el proceso varias veces, y otro interno para hacer las comparaciones entre pares de elementos. Aunque no es el más eficiente, es bueno para entender cómo funcionan los algoritmos de ordenamiento básicos.
+Bubble sort es un algoritmo de ordenamiento que funciona comparando elementos que están uno al lado del otro y los intercambia si están en el orden incorrecto. Esto se hace varias veces, y en cada pasada los valores más grandes van quedando al final, como si fueran burbujas subiendo a la superficie. A pesar de que no es el algoritmo más rápido que existe, es muy fácil de entender y es útil para aprender cómo funcionan los procesos de ordenamiento paso a paso. Me pareció interesante cómo, con solo unas cuantas líneas de código y ciclos anidados, se puede ordenar una lista completa. Para entenderlo mejor, hice una versión en Python y la probé con una lista desordenada, solo para ver cómo se comportaba y reforzar lo que había leído.
 
 ```
 def bubble_sort(lista):
